@@ -75,6 +75,16 @@ img
     height: auto;
 }
 
+.projects-grid
+{
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+}
+
 .project-card
 {
     background-color: var(--card-color);
@@ -88,7 +98,7 @@ img
     transition: 0.3s;
 
     box-shadow:
-        0 4px 10px rgba(2, 103, 7, 0.3);
+        0 4px 10px rgba(2, 103, 7, 0.566);
 }
 
 .project-card img
@@ -98,15 +108,7 @@ img
     border-radius: 10px;
 }
 
-.projects-grid
-{
-    display: grid;
 
-    grid-template-columns:
-        repeat(2, 1fr);
-
-    gap: 20px;
-}
 
 .project-card:hover
 {
