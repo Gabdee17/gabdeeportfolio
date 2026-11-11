@@ -77,6 +77,11 @@ nav a:hover
     gap: 20px;
 }
 
+.project-card:hover
+{
+    background-color: #292929;
+}
+
 @media (max-width: 768px)
 {
     .projects-grid
