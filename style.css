@@ -66,6 +66,12 @@ nav a:hover
     color: #3ea6ff;
 }
 
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
 .project-card
 {
     background-color: var(--card-color);
