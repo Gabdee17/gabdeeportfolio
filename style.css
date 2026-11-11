@@ -1,7 +1,15 @@
+:root
+{
+    --background-color: #121212;
+    --card-color: #1e1e1e;
+    --text-color: white;
+    --accent-color: #4DB8FF;
+}
+
 body
 {
-    background-color: #121212;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: Arial, sans-serif;
 
     max-width: 1000px;
@@ -27,7 +35,7 @@ h1
 
 h2
 {
-    color: #4DB8FF;
+    color: var(--accent-color);
 }
 
 nav
@@ -51,7 +59,7 @@ nav a:hover
 
 .project-card
 {
-    background-color: #1e1e1e;
+    background-color: var(--card-color);
 
     padding: 20px;
 
