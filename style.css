@@ -51,11 +51,13 @@ nav a:hover
 
 .project-card
 {
-    background-color: #e30000;
+    background-color: #1e1e1e;
 
     padding: 20px;
 
     border-radius: 10px;
+
+    border: 2px solid white;
 }
 
 .project-card img
