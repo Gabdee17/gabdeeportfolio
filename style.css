@@ -1,7 +1,8 @@
 :root
 {
     --background-color: #121212;
-    --card-color: #1e1e1e;
+    --project-card-color: #1e1e1e;
+    --contact-card-color: #20153b;
     --text-color: white;
     --accent-color: #4DB8FF;
     --spacing-small: 10px;
@@ -87,7 +88,7 @@ img
 
 .project-card
 {
-    background-color: var(--card-color);
+    background-color: var(--project-card-color);
 
     padding: 20px;
 
@@ -145,7 +146,7 @@ img
 
 .contact-card
 {
-    background-color: var(--card-color);
+    background-color: var(--contact-card-color);
 
     padding: 20px;
 
