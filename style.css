@@ -81,7 +81,8 @@ nav a:hover
 
 .project-card:hover
 {
-    background-color: #292929;
+    /* background-color: #292929; */
+    transform: translateY(-5px);
 }
 
 @media (max-width: 768px)
