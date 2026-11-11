@@ -143,6 +143,25 @@ img
     gap: 20px;
 }
 
+.contact-card
+{
+    background-color: var(--card-color);
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 4px 10px rgba(2, 103, 7, 0.566);
+}
+
 .contact-card img
 {
     width: 50px;
