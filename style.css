@@ -4,6 +4,9 @@
     --card-color: #1e1e1e;
     --text-color: white;
     --accent-color: #4DB8FF;
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 50px;
 }
 
 body
@@ -25,7 +28,7 @@ header
 
 section
 {
-    margin-bottom: 50px;
+    margin-bottom: var(--spacing-large);
 }
 
 h1
@@ -35,7 +38,13 @@ h1
 
 h2
 {
+    font-size: 2rem;
     color: var(--accent-color);
+}
+
+p
+{
+    font-size: 1rem;
 }
 
 nav
@@ -65,7 +74,7 @@ nav a:hover
 
     border-radius: 10px;
 
-    border: 2px solid #4DB8FF;
+    /*border: 2px solid #4DB8FF;*/
 
     transition: 0.3s;
 }
@@ -91,6 +100,20 @@ nav a:hover
 {
     background-color: #292929;
     transform: translateY(-5px);
+}
+
+.button
+{
+    display: inline-block;
+
+    padding: 12px 24px;
+
+    background-color: var(--accent-color);
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
 }
 
 @media (max-width: 768px)
